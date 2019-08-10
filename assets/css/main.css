@@ -2842,11 +2842,11 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1rem;
+		padding-left: 0rem;
 	}
 
 		ul li {
-			padding-left: 0.5rem;
+			padding-left: 0rem;
 		}
 
 		ul.divided {
@@ -3752,7 +3752,7 @@ input, select, textarea {
 	}
 
 		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 2rem 1rem 2rem ;
 			/* border-top: solid 2px #eeeeee; */
 			margin: 0;
 		}
