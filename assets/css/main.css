@@ -3,6 +3,28 @@
 
 
 
+/* Using Flexbox (Button alignment)*/
+
+.card-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-container .item3{
+	margin-top: auto;
+}
+
+
+/* Skills */
+.languages-used{
+	font-size: 17px; 
+	line-height:24px; 
+	color: #727072;
+	font-weight: 400;
+	font-family:'Karla',sans-serif;
+}
+
+
 /* Center lists */
 /* @media screen and (min-width:481px) {
 	#link-list {
@@ -4621,7 +4643,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7rem;
 		}
 
