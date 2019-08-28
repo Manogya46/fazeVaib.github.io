@@ -21,7 +21,7 @@ TxtRotate.prototype.tick = function () {
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
-    var delta = 300 - Math.random() * 100;
+    var delta = 200 - Math.random() * 100;
 
     if (this.isDeleting) {
         delta /= 2;
@@ -43,7 +43,7 @@ TxtRotate.prototype.tick = function () {
 
 window.onload = function () {
     var elements = document.getElementsByClassName('txt-rotate');
-    for (var i = 0; i < elements.length; i++) {
+    for (var i = 0; i < elements.length+1; i++) {
         var toRotate = elements[i].getAttribute('data-rotate');
         var period = elements[i].getAttribute('data-period');
         if (toRotate) {
