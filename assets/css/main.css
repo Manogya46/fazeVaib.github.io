@@ -26,19 +26,11 @@
 }
 
 
-/* Center lists */
-/* @media screen and (min-width:481px) {
-	#link-list {
-		position: absolute;
-		bottom: 20px;
-		margin: 0 auto;
-		margin-left: 0;
-		width: auto;
-		left: 50%;
-		transform: translateX(-50%)
-	}
+.typewriterdiv h1{
+	font-weight: 200;
+	margin: 0.4em 0;
+	font-size: 3.5em;
 }
-
 
 @media screen and (max-width:481px){
 	#link-list{
